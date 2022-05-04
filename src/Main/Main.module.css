@@ -1,0 +1,18 @@
+.Main {
+    background-color: #FBFEF9;
+    border-radius: 0.4rem;
+    width: 100% - 16rem;
+    height: 80%;
+    margin-top: 1.5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.divider {
+    height: 100%;
+    width: 2px;
+    background: -webkit-linear-gradient(bottom, #FBFEF9, #13070C, #FBFEF9);
+    margin: 0 0 0 0;
+}

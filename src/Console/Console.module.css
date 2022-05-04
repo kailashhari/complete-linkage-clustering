@@ -1,0 +1,83 @@
+.Console {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    font-size: 1.5rem;
+}
+.PointItem {
+    width: 100% - 1rem;
+    border-radius: 0.4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    padding: 0 0.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+.PointItem span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.PointItem input {
+    margin: 0 0.8rem;
+}
+.delete {
+    color: #A63446;
+    margin: 0.1rem 0 0.1rem 0.5rem;
+    cursor: pointer;
+}
+.add {
+    color: #196419;
+    margin: 0.1rem 0 0.1rem 0.5rem;
+    cursor: pointer;
+}
+.Console__header {
+    margin: 0.8rem;
+}
+.coordip {
+    width: 3rem;
+}
+.clust {
+    margin: 0.6rem;
+    font-size: 1.6rem;
+    background-color: #0C6291CC;
+    color: #FBFEF9;
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    transition: all 0.4s;
+
+}
+.clust:hover {
+    transform: scale(1.02);
+    background-color: #0C6291FF;
+    cursor: pointer;
+}
+.clr {
+    margin: 0.6rem;
+    font-size: 1.6rem;
+    background-color: #A63446CC;
+    color: #FBFEF9;
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    transition: all 0.4s;
+
+}
+.clr:hover {
+    transform: scale(1.02);
+    background-color: #A63446FF;
+    cursor: pointer;
+}
+.nclus {
+    margin: 0.6rem;
+    padding: 0.4rem 0.4rem;
+    font-size: 1rem;
+}
