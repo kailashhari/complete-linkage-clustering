@@ -63,6 +63,8 @@ function CanvasMain(props) {
       ctx.fillStyle = points[i].color;
       ctx.arc(canvas.width/2 + points[i].x*unit, canvas.height/2-points[i].y*unit, 5, 0, 2 * Math.PI);
       ctx.fill();
+      ctx.fillStyle = "#000000";
+      ctx.fillText(`(${points[i].x},${points[i].y})`, canvas.width/2 + points[i].x*unit + 5, canvas.height/2-points[i].y*unit - 5)
     }
   };
   useEffect(() => {

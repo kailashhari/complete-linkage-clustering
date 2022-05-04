@@ -11,7 +11,7 @@ const AddPoint = (props) => {
   const xRef = useRef(null);
   const yRef = useRef(null);
   
-  return <div className={classes.PointItem}><span>X: <input className={classes.coordip} ref={xRef}/></span><span>Y: <input className={classes.coordip} ref={yRef}/></span><span className={classes.add} onClick={() => {
+  return <div className={classes.PointItem} style={{border:"3px solid #0C6291"}}><span>X: <input className={classes.coordip} ref={xRef}/></span><span>Y: <input className={classes.coordip} ref={yRef}/></span><span className={classes.add} onClick={() => {
     props.add({x: parseFloat(xRef.current.value), y: parseFloat(yRef.current.value), key: Math.random()});
     xRef.current.value = '';
     yRef.current.value = '';
